@@ -1,2 +1,2 @@
-# my-dev-notes
+# Note taking repo
 Taking dev notes.
