@@ -11,7 +11,12 @@
 ```
 You may run into a following error
 ```
-[ERROR] Failed to execute goal io.quarkus:quarkus-maven-plugin:2.16.7.Final:create (default-cli) on project standalone-pom: Execution default-cli of goal io.quarkus:quarkus-maven-plugin:2.16.7.Final:create failed: A required class was missing while executing io.quarkus:quarkus-maven-plugin:2.16.7.Final:create: org/eclipse/aether/connector/basic/BasicRepositoryConnectorFactory
+[ERROR] Failed to execute goal io.quarkus:quarkus-maven-plugin:2.16.7.Final:create
+ (default-cli) on project standalone-pom: Execution default-cli 
+ of goal io.quarkus:quarkus-maven-plugin:2.16.7.Final:create 
+ failed: A required class was missing while executing 
+ io.quarkus:quarkus-maven-plugin:2.16.7.Final:create: 
+ org/eclipse/aether/connector/basic/BasicRepositoryConnectorFactory
 ```
 mvn version is important.  Use maven version of 3.8.x (either 3.8.7 and 3.8.4)
 
@@ -36,3 +41,12 @@ IBM BAMOE doc https://github.com/IBM/bamoe-docs.git
 Dev Service https://quarkus.io/guides/dev-services  
 Kie Sandbox https://sandbox.kie.org/#/  
 Kogito doc [https://docs.kogito.kie.org](https://docs.kogito.kie.org/latest/html_single/#proc-kogito-creating-project_kogito-creating-running)
+
+## BAMOE specific info
+https://www.ibm.com/docs/en/ibamoe/9.2.x?topic=installing-bamoe-maven-repository  
+https://quay.io/repository/bamoe/maven-repository?tab=tags&tag=9.2.0-ibm-0004  
+https://www.ibm.com/docs/en/ibamoe/9.2.x?topic=scenarios-decisions-rules-services-spring-boot  
+https://community.ibm.com/community/user/question/understanding-bamoe-dmoe-and-pamoe-differences-and-uses  
+
+## BAMOE pom.xml example
+https://github.com/IBM/bamoe-docs/blob/9.2.0/_code/docs/spring-boot/decisions/pom.xml
